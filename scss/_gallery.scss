@@ -1,0 +1,29 @@
+.wrapper-right-galery {
+  padding: 3em;
+  &-title {
+    margin-top: -3em;
+    margin-bottom: 4em;
+    color: $secondary;
+    span {
+      color: #000;
+      font-weight: bold;
+    }
+  }
+
+  &-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1em;
+
+    figure {
+      overflow: hidden;
+    }
+    .small {
+      height: 400px;
+    }
+    .large {
+      grid-column: 1 / -1;
+    }
+  }
+}

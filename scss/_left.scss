@@ -1,0 +1,60 @@
+.wrapper-left {
+  background-image: url(../img/Endless-Constellation.svg);
+  padding: 4em;
+
+  &-block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+    padding-right: 5em;
+    i {
+      font-size: 3.5rem;
+    }
+    .landing {
+      letter-spacing: 5px;
+    }
+  }
+}
+
+.second-left {
+  margin-top: -15.2em;
+}
+
+.third-left {
+  margin-top: 10.2em;
+}
+.forth-left {
+  margin-top: 5em;
+}
+
+.fifth-left {
+  margin-top: 20em;
+}
+
+.sixth-left {
+  margin-top: 5em;
+  color: $secondary;
+
+  span {
+    color: #fff;
+    display: block;
+    margin-bottom: 1.2em;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+  }
+
+  i {
+    font-size: 1.5rem;
+    margin-right: 0.5em;
+  }
+
+  &-group {
+    padding: 1em;
+  }
+
+  .social-group {
+    padding: 1em;
+  }
+}

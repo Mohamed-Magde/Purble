@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  line-height: 1.7;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.heading-1 {
+  font-size: 7rem;
+  font-weight: normal;
+  margin-bottom: 0.2em;
+}
+
+.heading-2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: normal;
+}
